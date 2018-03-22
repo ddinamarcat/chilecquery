@@ -14,47 +14,51 @@
 	<meta http-equiv="Content-Type" content="text/html"/>
   <!-- Script para cargar context Manager -->
 	<script type="text/javascript" src="js/contextManager.js"></script>
+  <script type="text/javascript" src="js/invitado.js"></script>
+  <script type="text/javascript" src="js/validator.js"></script>
   <!-- Hoja de estilo Layout 1 -->
   <script type="text/javascript" src="js/responsive.js"></script>
 </head>
 
 <body>
 <header>
-  <div>
-    <a href="#principal" class="main-menu-element" templateId="principal" mark="0"><img id="logo" src="img/chilecompra.svg" alt="Mercado Publico Logo"/></a>
-  </div>
-  <div>
-    <span class="menu"><img src="img/nav.svg" alt="" onclick="menuHandler()"/></span>
-  </div>
-  <div>
-    <nav id="top-menu" class="menum-inactivo" >
-        <ul id="botones-menu-principal">
-            <li class="no-actual main-menu-element" templateId="seccion2" mark="1">
-                <a href="#">Secci&oacute;n 2</a>
-            </li>
-            <li class="no-actual main-menu-element" templateId="seccion3" mark="1">
-                <a href="#">Secci&oacute;n 3</a>
-            </li>
-            <li class="no-actual main-menu-element" templateId="seccion4" mark="1">
-                <a href="#">Secci&oacute;n 4</a>
-            </li>
-            <li class="no-actual main-menu-element" templateId="seccion5" mark="1">
-                <a href="#">Secci&oacute;n 5</a>
-            </li>
-            <li class="no-actual main-menu-element" templateId="seccion6" mark="1">
-                <a href="#">Secci&oacute;n 6</a>
-            </li>
-            <li class="no-actual main-menu-element" templateId="seccion7" mark="1">
-                <a href="#">Secci&oacute;n 7</a>
-            </li>
-            <li class="no-actual main-menu-element" templateId="seccion8" mark="1">
-                <a href="#">Secci&oacute;n 8</a>
-            </li>
-        </ul>
-    </nav>
-  </div>
-  <div>
-      <input id="login-button" type="button" Value="LOGIN" onclick="loginManager.showLogin();"/>
+  <div id="header-grid">
+    <div>
+      <a href="#principal" class="main-menu-element" templateId="principal" mark="0"><img id="logo" src="img/chilecompra.svg" alt="Mercado Publico Logo"/></a>
+    </div>
+    <div>
+      <span class="menu"><img src="img/nav.svg" alt="" onclick="menuHandler()"/></span>
+    </div>
+    <div>
+      <nav id="top-menu" class="menum-inactivo" >
+          <ul id="botones-menu-principal">
+              <li class="no-actual main-menu-element" templateId="seccion2" mark="1">
+                  <a href="#">Secci&oacute;n 2</a>
+              </li>
+              <li class="no-actual main-menu-element" templateId="seccion3" mark="1">
+                  <a href="#">Secci&oacute;n 3</a>
+              </li>
+              <li class="no-actual main-menu-element" templateId="seccion4" mark="1">
+                  <a href="#">Secci&oacute;n 4</a>
+              </li>
+              <li class="no-actual main-menu-element" templateId="seccion5" mark="1">
+                  <a href="#">Secci&oacute;n 5</a>
+              </li>
+              <li class="no-actual main-menu-element" templateId="seccion6" mark="1">
+                  <a href="#">Secci&oacute;n 6</a>
+              </li>
+              <li class="no-actual main-menu-element" templateId="seccion7" mark="1">
+                  <a href="#">Secci&oacute;n 7</a>
+              </li>
+              <li class="no-actual main-menu-element" templateId="seccion8" mark="1">
+                  <a href="#">Secci&oacute;n 8</a>
+              </li>
+          </ul>
+      </nav>
+    </div>
+    <div>
+        <input id="login-button" type="button" Value="LOGIN" onclick="loginManager.showLogin();"/>
+    </div>
   </div>
 </header>
 <div id="contenido" class="c-desactivado">
